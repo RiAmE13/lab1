@@ -1,0 +1,120 @@
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторна 1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Лабораторна робота №1</h1>
+    </header>
+
+    <section>
+      <b>E=mc<sup>2</sup></b
+      >, where <b>E</b> &ndash; energy of the object, <b>m</b> &ndash; it&apos;s
+      mass, <b>c</b> &ndash; speed of light in vacuum, equals to 299 792 458
+      <em>m/s</em>
+    </section>
+
+    <section>
+      <h2>Вибір студента</h2>
+      <label for="student-select">Оберіть студента з групи:</label>
+      <select id="student-select" name="student">
+        <option value="student1">Ахріменко Максим Сергійович</option>
+        <option value="student2">Боговський Олег Олександрович</option>
+        <option value="student3">Гаращенко Ігор Олександрович</option>
+        <option value="student4">Дригач Кирило Валерійович</option>
+        <option value="student5">Дульцева Еліна Євгенівна</option>
+        <option value="student6">Кашин Матвій Дмитрович</option>
+        <option value="student7">Коленов Ілля Євгенійович</option>
+        <option value="student8">Конарєв Іван Валерійович</option>
+      </select>
+    </section>
+
+    <section>
+      <h2>Зміст книги</h2>
+      <table>
+        <tr>
+          <th>Назва розділу</th>
+          <th>Сторінка</th>
+        </tr>
+        <tr>
+          <td>Вступ</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Основи HTML</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>CSS: Стилі для веб-сторінок</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>JavaScript: Основи програмування</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Робота з DOM</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td>Основи алгоритмів</td>
+          <td>55</td>
+        </tr>
+        <tr>
+          <td>Введення в бібліотеки та фреймворки</td>
+          <td>70</td>
+        </tr>
+        <tr>
+          <td>Підсумок</td>
+          <td>100</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Форма для введення інформації про студента</h2>
+      <form action="#" method="POST">
+        <label for="name">ПІБ студента:</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+
+        <label for="birthdate">Дата народження:</label>
+        <input type="date" id="birthdate" name="birthdate" required />
+        <br />
+
+        <label for="gender">Стать:</label>
+        <input type="radio" id="male" name="gender" value="Чоловіча" required />
+        <label for="male">Чоловіча</label>
+        <input type="radio" id="female" name="gender" value="Жіноча" required />
+        <label for="female">Жіноча</label>
+        <br />
+
+        <label for="faculty">Факультет:</label>
+        <select id="faculty" name="faculty" required>
+          <option value="Комп'ютерна інженерія">Комп'ютерна інженерія</option>
+          <option value="Комп'ютерні науки">Комп'ютерні науки</option>
+          <option value="Інформаційні системи і технології">
+            Інформаційні системи і технології
+          </option>
+        </select>
+        <br />
+
+        <label for="address">Адреса:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+        <br />
+
+        <button type="submit">Надіслати</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Матеріали про веб-розробкуч</h2>
+      <p>
+        Перейдіть до <a href="about.html#section2">Розділу 2</a> на сторінці
+        "Про веб".
+      </p>
+    </section>
+  </body>
+</html>

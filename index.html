@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html lang="uk">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лабораторна 1</title>
   </head>
   <body>
@@ -10,6 +11,7 @@
     </header>
 
     <section>
+      <h2>Оформлений текст</h2>
       <b>E=mc<sup>2</sup></b
       >, where <b>E</b> &ndash; energy of the object, <b>m</b> &ndash; it&apos;s
       mass, <b>c</b> &ndash; speed of light in vacuum, equals to 299 792 458
@@ -77,33 +79,34 @@
       <h2>Форма для введення інформації про студента</h2>
       <form action="#" method="POST">
         <label for="name">ПІБ студента:</label>
-        <input type="text" id="name" name="name" required />
-        <br />
+        <input type="text" id="name" name="name" required>
+        <br>
 
         <label for="birthdate">Дата народження:</label>
-        <input type="date" id="birthdate" name="birthdate" required />
-        <br />
+        <input type="date" id="birthdate" name="birthdate" required>
+        <br>
 
-        <label for="gender">Стать:</label>
-        <input type="radio" id="male" name="gender" value="Чоловіча" required />
+        <label for="male">Стать:</label>
+        <input type="radio" id="male" name="gender" value="Чоловіча" required>
         <label for="male">Чоловіча</label>
-        <input type="radio" id="female" name="gender" value="Жіноча" required />
+        <input type="radio" id="female" name="gender" value="Жіноча" required>
         <label for="female">Жіноча</label>
-        <br />
+        <br>
 
         <label for="faculty">Факультет:</label>
         <select id="faculty" name="faculty" required>
+          <option value="" disabled selected>Оберіть факультет</option>
           <option value="Комп'ютерна інженерія">Комп'ютерна інженерія</option>
           <option value="Комп'ютерні науки">Комп'ютерні науки</option>
           <option value="Інформаційні системи і технології">
             Інформаційні системи і технології
           </option>
-        </select>
-        <br />
+        </select>        
+        <br>
 
         <label for="address">Адреса:</label>
         <textarea id="address" name="address" rows="4" required></textarea>
-        <br />
+        <br>
 
         <button type="submit">Надіслати</button>
       </form>
